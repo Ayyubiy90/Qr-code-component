@@ -1,0 +1,65 @@
+/* General styles */
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(0, 0%, 100%); /* White background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container for centering the content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* QR Code component styling */
+.qr-code {
+  background-color: hsl(0, 0%, 100%); /* White background */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* QR Code image styling */
+.qr-code img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Heading styling */
+.qr-code h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  color: hsl(218, 44%, 22%); /* Slate 900 */
+  font-weight: 700; /* Bold font */
+}
+
+/* Paragraph styling */
+.qr-code p {
+  font-size: 0.875rem;
+  color: hsl(216, 15%, 48%); /* Slate 500 */
+  margin: 0;
+}
+
+/* Attribution styling */
+.attribution {
+  font-size: 0.6875rem; /* 11px */
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); /* Slate 300 */
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
