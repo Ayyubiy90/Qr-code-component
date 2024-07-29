@@ -29,8 +29,9 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%; /* Full width of its container */
-  max-width: 300px; /* Restrict maximum width */
-  margin-bottom: 1rem; /* Space between QR code and footer */
+  max-width: 200px; /* Restrict maximum width */
+  margin-bottom: 5rem; /* Space between QR code and footer */
+  margin-top: 5rem;
 }
 
 /* QR Code image styling */
