@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  width: 300px; /* Adjusted width */
+  width: 300px; /* Default width */
 }
 
 /* QR Code component styling */
@@ -29,7 +29,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%; /* Full width of its container */
-  max-width: 200px; /* Restrict maximum width */
+  max-width: 200px; /* Default maximum width */
   margin-bottom: 5rem; /* Space between QR code and footer */
   margin-top: 5rem;
 }
@@ -42,7 +42,7 @@ body {
 
 /* Heading styling */
 .qr-code h4 {
-  font-size: 1rem; /* Adjusted font size */
+  font-size: 1rem; /* Default font size */
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0;
@@ -53,7 +53,7 @@ body {
 
 /* Paragraph styling */
 .qr-code p {
-  font-size: 0.7rem;
+  font-size: 0.7rem; /* Default font size */
   color: hsl(216, 15%, 48%); /* Slate 500 */
   margin-bottom: 0.5rem;
   padding-left: 0.5rem;
@@ -62,7 +62,7 @@ body {
 
 /* Attribution (footer) styling */
 .attribution {
-  font-size: 1rem; /* 11px */
+  font-size: 1rem; /* Default font size */
   color: hsl(228, 45%, 44%); /* Slate 300 */
   text-decoration: none;
   margin-top: auto; /* Pushes attribution to the bottom */
@@ -77,4 +77,32 @@ body {
 
 .attribution a:hover {
   color: hsl(216, 15%, 48%);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 375px) {
+  .container {
+    width: 90%; /* Adjust width for mobile */
+    padding: 0.5rem; /* Adjust padding for mobile */
+  }
+
+  .qr-code {
+    max-width: 100%; /* Full width of its container */
+    margin-bottom: 2rem; /* Adjusted margin for mobile */
+    margin-top: 2rem; /* Adjusted margin for mobile */
+  }
+
+  .qr-code h4 {
+    font-size: 0.875rem; /* Adjusted font size for mobile */
+  }
+
+  .qr-code p {
+    font-size: 0.625rem; /* Adjusted font size for mobile */
+  }
+
+  .attribution {
+    font-size: 0.5rem; /* Adjusted font size for mobile */
+    margin-bottom: 1rem; /* Adjusted margin for mobile */
+    text-align: center;
+  }
 }
