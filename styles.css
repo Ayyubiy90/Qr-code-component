@@ -1,11 +1,11 @@
 /* General styles */
 body {
   font-family: "Outfit", sans-serif;
-  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  background-color: hsl(212, 45%, 89%);
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -19,18 +19,18 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  width: 300px; /* Default width */
+  width: 300px;
 }
 
 /* QR Code component styling */
 .qr-code {
-  background-color: hsl(0, 0%, 100%); /* White background */
+  background-color: hsl(0, 0%, 100%); 
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Full width of its container */
-  max-width: 200px; /* Default maximum width */
-  margin-bottom: 5rem; /* Space between QR code and footer */
+  width: 100%; 
+  max-width: 200px; 
+  margin-bottom: 5rem; 
   margin-top: 5rem;
 }
 
@@ -42,19 +42,19 @@ body {
 
 /* Heading styling */
 .qr-code h4 {
-  font-size: 1rem; /* Default font size */
+  font-size: 1rem; 
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0;
   margin: 1rem 0 1rem;
-  color: hsl(218, 44%, 22%); /* Slate 900 */
-  font-weight: 700; /* Bold font */
+  color: hsl(218, 44%, 22%); 
+  font-weight: 700; 
 }
 
 /* Paragraph styling */
 .qr-code p {
-  font-size: 0.7rem; /* Default font size */
-  color: hsl(216, 15%, 48%); /* Slate 500 */
+  font-size: 0.7rem; 
+  color: hsl(216, 15%, 48%); 
   margin-bottom: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -62,15 +62,15 @@ body {
 
 /* Attribution (footer) styling */
 .attribution {
-  font-size: 1rem; /* Default font size */
-  color: hsl(228, 45%, 44%); /* Slate 300 */
+  font-size: 1rem; 
+  color: hsl(228, 45%, 44%); 
   text-decoration: none;
-  margin-top: auto; /* Pushes attribution to the bottom */
+  margin-top: auto; 
   margin-bottom: 2rem;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%); /* Slate 300 */
+  color: hsl(228, 45%, 44%); 
   text-decoration: none;
   font-weight: 700;
 }
@@ -82,27 +82,27 @@ body {
 /* Mobile responsiveness */
 @media (max-width: 375px) {
   .container {
-    width: 90%; /* Adjust width for mobile */
-    padding: 0.5rem; /* Adjust padding for mobile */
+    width: 90%; 
+    padding: 0.5rem; 
   }
 
   .qr-code {
-    max-width: 100%; /* Full width of its container */
-    margin-bottom: 2rem; /* Adjusted margin for mobile */
-    margin-top: 2rem; /* Adjusted margin for mobile */
+    max-width: 100%; 
+    margin-bottom: 2rem; 
+    margin-top: 2rem; 
   }
 
   .qr-code h4 {
-    font-size: 0.875rem; /* Adjusted font size for mobile */
+    font-size: 0.875rem; 
   }
 
   .qr-code p {
-    font-size: 0.625rem; /* Adjusted font size for mobile */
+    font-size: 0.625rem; 
   }
 
   .attribution {
-    font-size: 0.5rem; /* Adjusted font size for mobile */
-    margin-bottom: 1rem; /* Adjusted margin for mobile */
+      font-size: 0.5rem; 
+      margin-bottom: 1rem; 
     text-align: center;
   }
 }
