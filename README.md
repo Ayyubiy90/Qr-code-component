@@ -19,13 +19,13 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Screenshot 📸
 
-![](./preview.jpg)
+![](./design/desktop-design.jpg)
 
 I captured this screenshot using Window's built-in screenshot tool. You can also use [FireShot](https://getfireshot.com/) for capturing and editing screenshots.
 
 ### Links 🔗
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [QR Code](https://qr-code-component-silk-eight.vercel.app/)
 
 ## My Process 🛠️
 
